@@ -3,9 +3,329 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/slick.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Montichello</title>
   </head>
+
   <body>
+    <!-- --------------HEADER---------------------------------- -->
+    <header>
+      <nav>
+        <img class="brand" src="img/header-logo.svg" alt="logo" />
+        <ul class="nav-list">
+          <a class="nav-link-container" href="#">
+            <div class="nav-bullet"></div>
+            <li class="nav-link">About us</li>
+          </a>
+
+          <a class="nav-link-container" href="#projects">
+            <div class="nav-bullet"></div>
+            <li class="nav-link">Projects</li>
+          </a>
+
+          <a class="nav-link-container" href="#news">
+            <div class="nav-bullet"></div>
+            <li class="nav-link">News</li>
+          </a>
+
+          <a class="nav-link-container" href="#gallery">
+            <div class="nav-bullet"></div>
+            <li class="nav-link">Gallery</li>
+          </a>
+
+          <a class="nav-link-container" href="#contact">
+            <div class="nav-bullet"></div>
+            <li class="nav-link">Contact</li>
+          </a>
+        </ul>
+        <div class="socials">
+          <a href="#" class="socials-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="socials-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="socials-link"><i class="fab fa-instagram"></i></a>
+        </div>
+      </nav>
+
+      <div class="header-title">
+        <h1>SIMPLE & MODERN</h1>
+        <h5>WE MAKE THE WORLD BEAUTIFUL EVERYDAY</h5>
+        <a href="#projects" class="arrow"
+          ><i class="fas fa-chevron-down"></i
+        ></a>
+      </div>
+    </header>
+
+    <!-- ---------------PROJECTS------------------------------ -->
+    <section id="projects" class="projects-container">
+      <div class="section-title-container">
+        <div class="line"></div>
+        <h2 class="section-title">What we do</h2>
+      </div>
+
+      <div class="top-container">
+        <div class="images">
+          <div class="box box--blue"></div>
+          <img
+            class="box--image"
+            src="./img/projects1-photo.svg"
+            alt="scyscraper"
+          />
+        </div>
+        <div class="text-content">
+          <h3 class="above-title">One world</h3>
+          <h2 class="section-title">trade center</h2>
+          <p class="paragraph">
+            Increasing prosperity in our lives can be accomplished by having the
+            right frame of mind. The truth is, our thoughts are very powerful.
+          </p>
+          <button class="button">more details</button>
+          <div class="adress-container">
+            <i class="fas fa-map-marker-alt"></i>
+            <p class="adress">New York City, United States - 1776 feet</p>
+          </div>
+        </div>
+      </div>
+      <!-- /*-------------Bottom container------------------*/ -->
+      <div class="bottom-container">
+        <div class="text-content text-content--bottom">
+          <h3 class="above-title above-title--bottom">International</h3>
+          <h2 class="section-title section-title--bottom">Commerce centre</h2>
+          <p class="paragraph">
+            Successful businesses have many things in common, today we’ll look
+            at the big ‘R’ of recognition and how a digital advertising network
+            may help.
+          </p>
+          <button class="button button--bottom">more details</button>
+          <div class="adress-container">
+            <i class="fas fa-map-marker-alt"></i>
+            <p class="adress">Hong Kong - 1588 feet</p>
+          </div>
+        </div>
+        <div class="images images--bottom">
+          <div class="box box--purple"></div>
+          <img
+            class="box--image box--image--bottom"
+            src="./img/projects2-photo.svg"
+            alt="scyscraper"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------NEWS----------------------------- -->
+
+    <section id="news" class="news-container">
+      <div class="section-title-container">
+        <div class="line line-light"></div>
+        <h2 class="section-title section-title--light">Latest News</h2>
+      </div>
+
+      <div class="slider-container">
+        <div class="arrow-box-left">
+          <i class="fas fa-chevron-left arrow arrow--left"></i>
+        </div>
+      </div>
+
+      <div class="news-slider">
+        <div class="news-box">
+          <img src="./img/news-image1.svg" alt="photo of modern building" />
+          <div class="news-content">
+            <h3 class="news-title">
+              See the unmatched beauty of the great.
+            </h3>
+            <p class="paragraph news-paragraph">
+              Free directories: directories are perfect for customers that are
+              searching for...
+            </p>
+            <div class="person">
+              <img
+                class="person-img"
+                src="./img/news-alja.svg"
+                alt="Alja photo"
+              />
+              <div class="person-info">
+                <h4 class="person-name">Alja Brun</h4>
+                <p class="person-date">20 Jan 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-box">
+          <img src="./img/news-image2.svg" alt="scyscraper" />
+          <div class="news-content">
+            <h3 class="news-title">Effective advertising pointers.</h3>
+            <p class="paragraph news-paragraph">
+              Having a home based business is a wonderful asset to your life...
+            </p>
+            <div class="person">
+              <img
+                class="person-img"
+                src="./img/news-dominic.svg"
+                alt="Dominic photo"
+              />
+              <div class="person-info">
+                <h4 class="person-name">Dominic Freeman</h4>
+                <p class="person-date">13 Dec 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="news-box">
+          <img src="./img/news-image3.svg" alt="scyscraper" />
+          <div class="news-content">
+            <h3 class="news-title">Hypnotize yourself into the ghost.</h3>
+            <p class="paragraph news-paragraph">
+              There are many things that are important to catalog design...
+            </p>
+            <div class="person">
+              <img
+                class="person-img"
+                src="./img/news-alice.svg"
+                alt="Alice photo"
+              />
+              <div class="person-info">
+                <h4 class="person-name">Alice Ward</h4>
+                <p class="person-date">30 Nov 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- /*----------------------ARROW--------------------------------*/ -->
+      <div class="arrow-box right">
+        <i class="fas fa-chevron-right arrow arrow--right"></i>
+      </div>
+    </section>
+
+    <!-- ---------------------GALLERY------------------------- -->
+
+    <section id="gallery" class="gallery-container">
+      <div class="gallery-content">
+        <div class="section-title-container">
+          <div class="line line"></div>
+          <h2 class="section-title">Gallery</h2>
+        </div>
+        <div class="images-container">
+          <div class="images">
+            <img
+              class="gallery-img"
+              src="./img/gallery-image1.svg"
+              alt="360 image of building"
+            />
+          </div>
+          <div class="images">
+            <img
+              class="gallery-img"
+              src="./img/gallery-image2.svg"
+              alt="photo of building"
+            />
+            <img
+              class="gallery-img"
+              src="./img/gallery-image3.svg"
+              alt="photo of building"
+            />
+            <img
+              class="gallery-img"
+              src="./img/gallery-image4.svg"
+              alt="photo of building"
+            />
+            <img
+              class="gallery-img"
+              src="./img/gallery-image5.svg"
+              alt="photo of building"
+            />
+          </div>
+        </div>
+        <button class="button button--gallery">See More</button>
+      </div>
+    </section>
+
+    <!-- --------------------------CONTACT-------------------- -->
+
+    <section id="contact" class="contact-container">
+      <div class="map"></div>
+
+      <div class="contacts">
+        <div class="section-title-container">
+          <div class="line"></div>
+          <h2 class="section-title">Get in Touch</h2>
+        </div>
+
+        <div class="contacts-container">
+          <div class="contacts-info">
+            <div class="contacts-wrapper">
+              <i class="fas fa-map-marker-alt contacts-icon"></i>
+              <p class="contacts-paragraph">91 Nolan Extensions Suite 670</p>
+            </div>
+            <div class="contacts-wrapper">
+              <i class="fas fa-phone-alt contacts-icon"></i>
+              <p class="contacts-paragraph">+001 356-868-2454</p>
+            </div>
+            <div class="contacts-wrapper">
+              <i class="fas fa-inbox contacts-icon"></i>
+              <p class="contacts-paragraph">montichello@service.com</p>
+            </div>
+            <div class="contacts-wrapper">
+              <i class="far fa-clock contacts-icon"></i>
+              <p class="contacts-paragraph">From 07:05AM to 19:30PM</p>
+            </div>
+          </div>
+
+          <form onsubmit="return validateForm()">
+            <input
+              class="contacts-input"
+              type="text"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <input
+              class="contacts-input"
+              type="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+            <button class="button button--submit" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------------FOOTER-------------------------- -->
+
+    <footer>
+      <div class="container">
+        <div class="credit">
+          <img class="brand" src="img/header-logo.svg" alt="logo" />
+          <h5>Copyrights © 2020 Montichello</h5>
+        </div>
+
+        <div class="socials-footer">
+          <a href="#" class="socials-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="socials-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="socials-link"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
     <script src="src/script.js"></script>
   </body>
 </html>
